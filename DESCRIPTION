@@ -1,0 +1,18 @@
+Package: loglinear
+Type: Package
+Title: Loglinear Models for LCA, MSE and Imputation
+Version: 1.0
+Author: Maarten Cruyff
+Maintainer: Maarten Cruyff <m.cruyff@uu.nl>
+Description: Loglinear models for . 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+   R (>= 4.3.0)
+LazyData: true
+Imports:
+    Matrix (>= 1.5-0),
+    dplyr (>= 1.1.2),
+    pracma (>= 2.4.2)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
